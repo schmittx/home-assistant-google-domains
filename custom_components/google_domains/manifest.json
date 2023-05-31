@@ -1,0 +1,11 @@
+{
+  "domain": "google_domains",
+  "name": "Google Domains",
+  "codeowners": ["@schmittx"],
+  "config_flow": true,
+  "documentation": "https://github.com/schmittx/home-assistant-google-domains",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/schmittx/home-assistant-google-domains/issues",
+  "loggers": ["google_domains"],
+  "version": "1.0.0"
+}
