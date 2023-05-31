@@ -3,7 +3,7 @@
 Custom component to update [Google Domains](https://domains.google) dynamic DNS records using [Home Assistant](https://home-assistant.io).
 
 ## Credit
-- [Google Domains](https://www.home-assistant.io/integrations/google_domains/) - Core Home Assistant integration
+- [Google Domains](https://www.home-assistant.io/integrations/google_domains/) - Home Assistant core integration
 
 ## Notes
 - This integration is a modified version of the existing Home Assistant core integration which support configuration via UI and multiple entries.
