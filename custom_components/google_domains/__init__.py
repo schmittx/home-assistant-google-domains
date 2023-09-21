@@ -4,7 +4,6 @@ from datetime import timedelta
 import logging
 
 import aiohttp
-import async_timeout
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import (
@@ -97,7 +96,7 @@ async def _update_google_domains(
     params = {"hostname": domain}
 
     try:
-        async with async_timeout.timeout(timeout):
+        async with asyncio.timeout(timeout):
             response = await session.get(url, params=params)
             body = await response.text()
 
