@@ -7,5 +7,5 @@
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/schmittx/home-assistant-google-domains/issues",
   "loggers": ["google_domains"],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

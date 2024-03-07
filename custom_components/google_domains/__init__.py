@@ -115,7 +115,7 @@ async def _update_google_domains(
     except aiohttp.ClientError:
         _LOGGER.warning("Can't connect to Google Domains API")
 
-    except asyncio.TimeoutError:
+    except TimeoutError:
         _LOGGER.warning(f"Timeout from Google Domains API for domain: {domain}")
 
     return False
